@@ -1167,18 +1167,13 @@ label{
     
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: flex-start;
         align-items: center;
     
         color: white;
     }
     
-    .nosotros__titulo h1{
-        font-size: 24px;
-        text-shadow: 0.1em 0.1em #333;
-    }
-    
-    .nosotros__texto{
+/*     .nosotros__texto{
         width: auto;
         padding: 0px;
     
@@ -1190,8 +1185,20 @@ label{
     }
 
     .nosotros__texto h3{
-        font-size: 16px;
+        font-size: 10px;
         text-align: center;
+    } */
+
+    .nosotros__texto{
+        width: auto;
+        padding: 0px;
+
+        color: white;
+        text-align: center;
+    }
+    
+    .nosotros__texto h4{
+        font-size: 14px;
     }
     
    /*  .nosotros__2{
