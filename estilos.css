@@ -90,6 +90,21 @@ iframe{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+
+.variacion{
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .4s;
+    color: white !important;
+}
+
+.variacion:hover, .variacion:focus {
+    background-size: 100% 1px;
+}
+
 /*//////////////////BOTONERA/////////////////////*/
 /*//////////////////INDEX/////////////////////*/
 .body{
