@@ -40,12 +40,13 @@
 
               <div class="container">
                 <div class="row">
-                  <div class="input-group">
-                    <label class="input-group-text">Nombre y Apellido</label>
-                    <input
-                      type="text"aria-label="First name" class="form-control"/>
-                    <input
-                      type="text" aria-label="Last name" class="form-control"/>
+                  <div class="input-group input-group-sm mb-3">
+                    <span class="input-group-text" id="inputGroup-sizing-sm">NOMBRE</span>
+                    <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+                  </div>
+                  <div class="input-group input-group-sm mb-3">
+                    <span class="input-group-text" id="inputGroup-sizing-sm">APELLIDO</span>
+                    <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
                   </div>
                 </div>
               </div>
@@ -67,18 +68,18 @@
 
               <div class="container espacio">
                 <div class="row">
-                  <div class="mb-3">
-                    <label for="exampleFormControlTextarea1" class="form-label"></label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Escriba aquí su consulta"></textarea>
+                  <div class="input-group">
+                    <span class="input-group-text">CONSULTA</span>
+                    <textarea class="form-control" aria-label="With textarea" rows="3" ></textarea>
                   </div>
                 </div>
               </div>
 
               <div class="container espacio">
                 <div class="row">
-                  <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">Email:</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com"/>
+                  <div class="input-group flex-nowrap">
+                    <span class="input-group-text" id="addon-wrapping">@</span>
+                    <input type="text" class="form-control" placeholder="correo@gmail.com" aria-label="Username" aria-describedby="addon-wrapping">
                   </div>
                 </div>
               </div>
