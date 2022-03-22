@@ -1,0 +1,60 @@
+.nosotros{
+    width: $auto;
+    height: 600px;
+
+    background-image: url(./../../imagenes/imprimiendo.jpg);
+    background-repeat: no-repeat;
+    image-rendering: $auto;
+    background-size: $prc 600px;
+
+    display: $f;
+    flex-direction: $r;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.nosotros__titulo{
+    width: $auto;
+    padding: 30px;
+
+    display: $f;
+    flex-direction: $r;
+    justify-content: center;
+    align-items: stretch;
+
+    color: white;
+}
+
+.nosotros__titulo h1{
+    text-shadow: 0.1em 0.1em #333;
+}
+
+.nosotros__texto{
+    width: 500px;
+    padding: 30px;
+
+    display: $f;
+    flex-direction: $r;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.nosotros__texto h4{
+    text-shadow: 0.1em 0.1em #333;
+}
+
+.fondo{
+    padding: 20px;
+}
+
+.espacio{
+    padding: 20px;
+}
+
+.alineacion{
+    text-align: center;
+}

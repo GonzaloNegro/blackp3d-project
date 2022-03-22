@@ -1,0 +1,80 @@
+.footer{
+    height: $auto;
+
+    background-color: $negro;
+    border-top: 1px solid #6b6b6b;
+}
+
+.footer__contenedor{
+    margin: 0 $auto;
+    height: $prc;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+   	grid-template-rows: repeat(3, 40px); 
+}
+
+.footer__copy{
+    width: $auto;
+    height: $auto;
+
+/*     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end; */
+    /* flex-wrap: wrap-reverse; */
+    justify-self: center;
+    align-self: center;
+    color: white;
+    grid-column: 1;
+    grid-row: 3;
+}
+
+.footer__titulo{
+    width: $auto;
+    height: $auto;
+
+/*     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; */
+    /* flex-wrap: wrap-reverse; */
+    justify-self: center;
+    align-self: center;
+    color: white;
+
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.footer__redes{
+    width: $auto;
+    height: $auto;
+
+/*     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline; */
+    /* flex-wrap: wrap-reverse; */
+    justify-self: center;
+    align-self: center;
+
+    grid-column: 3;
+    grid-row: 1;
+}
+
+.fa-instagram{
+    color: rgb(175, 0, 219);
+    padding: 10px;
+}
+
+
+.fa-whatsapp{
+    color: rgb(0, 255, 42);
+    padding: 10px;
+}
+
+.fa-envelope{
+    color: rgb(255, 22, 22);
+    padding: 10px;
+}

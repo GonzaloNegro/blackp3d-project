@@ -1,0 +1,77 @@
+.bem{
+    width: $auto;
+    height: $auto;
+    margin: 0 $auto;
+
+    display: $f;
+    flex-direction: $c;
+}
+
+.espacio{
+    padding: 10px;
+}
+
+.bem__titulo{
+    display: $f;
+    flex-direction: $c;
+    justify-content: start;
+    align-items: center;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.bem__contenedor{
+    width: $auto;
+    
+    display: $f;
+    flex-direction: $r;
+    justify-content: start;
+    align-items: stretch;
+
+    flex-wrap: wrap;
+}
+
+.tarjeta{
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+
+    width: 200px;
+    height: $auto;
+    padding: 1rem;
+    margin: 0 $auto;
+    margin-bottom: 2rem;
+    border: 5px double $negro;
+
+    display: $f;
+    flex-direction: $c;
+    justify-content: start;
+    align-items: flex-start;
+    cursor: pointer;
+
+    &:hover{
+        box-shadow: 3px 3px 20px white;
+        border: 5px double white;
+    }
+}
+
+/* .tarjeta:hover{
+    box-shadow: 3px 3px 20px white;
+    border: 5px double white;
+} */
+
+.tarjeta__imagen{
+    border-radius: inherit;
+
+    width: $prc;
+    height: $prc;
+    object-fit: cover;
+}
+
+.tarjeta__titulo{
+    color: rgb(31, 50, 81);
+    font-size: 22px;
+
+    margin: 0 $auto;
+    border-top: 1px solid #000;
+}

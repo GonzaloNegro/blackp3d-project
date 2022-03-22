@@ -1,0 +1,56 @@
+.impresoras{
+    width: $auto;
+    height: $auto;
+    margin: 0 $auto;
+
+    display: $f;
+    flex-direction: $c;
+}
+
+.impresoras__titulo{
+    width: $auto;
+    padding: 30px;
+
+    display: $f;
+    flex-direction: $c;
+    justify-content: start;
+    align-items: center;
+    color: white;
+}
+
+.impresoras__contenedor{
+    width: $auto;
+    padding: 30px;
+    
+    display: $f;
+    flex-direction: $r;
+    justify-content: space-between;
+    align-items: center;
+
+    flex-wrap: wrap;
+}
+
+.impresoras__imagen{
+    width: 300px;
+    height: 300px;
+
+    display: $f;
+    flex-direction: $r;
+    justify-content: center;
+}
+
+.impresoras__imagen img{
+    border-radius: 10px;
+    border: 5px double $negro;
+}
+
+.impresoras__texto{
+    width: 300px;
+    height: 300px;
+
+    text-align: center;
+    display: $f;
+    flex-direction: $c;
+    justify-content: center;
+    color: white;
+}
