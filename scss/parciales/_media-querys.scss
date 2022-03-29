@@ -87,19 +87,6 @@
         padding: 10px;
     }
 
-    .nav__lista{
-        gap: 1rem;
-    }
-    .nav__item{
-        margin-left: 1rem;
-    }
-
-
-    .nav__enlace{
-        color: #FFFFFF;
-        font-size: 12px;
-    }
-
     .nosotros{
         background-size: 130% 400px;
     }
@@ -213,6 +200,11 @@
         justify-content: center;
     }
 
+    .impresoras__contenedor--derecha{
+        flex-wrap: initial;
+        justify-content: center;
+    }
+
     .impresoras__imagen{
         width: 150px;
         height: 150px;
@@ -303,35 +295,6 @@
         text-align: center;
     }
 
-    .header{
-        height: $auto;
-    }
-
-    .header__contenedor{
-        display: $f;
-        flex-direction: $c;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .nav__lista{
-        gap: 1rem;
-        padding: 10px;
-        display: $f;
-        flex-direction: $c;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    .nav__item{
-        margin-left: 0rem;
-    }
-
-
-    .nav__enlace{
-        color: #FFFFFF;
-        font-size: 12px;
-    }
 
     .fa-instagram{
         color: rgb(175, 0, 219);
@@ -566,6 +529,11 @@
         flex-direction: $c;
         justify-content: center;
         flex-wrap: wrap;
+    }
+
+    .impresoras__contenedor--derecha{
+        flex-wrap: initial;
+        justify-content: center;
     }
 
     .impresoras__imagen{

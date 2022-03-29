@@ -1,5 +1,5 @@
 /*//////////////////CABECERA/////////////////////*/
-.header{
+/* .header{
     background-color: $negro;
     height: $prc;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
@@ -27,7 +27,7 @@
 }
 /*//////////////////CABECERA/////////////////////*/
 /*//////////////////BOTONERA/////////////////////*/
-.nav{
+/* .nav{
     text-align: center;
 
     &__lista{
@@ -45,7 +45,7 @@
         font-size: 14px;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
-}
+}  */
 
 /* .nav__lista{
     display: $f;
@@ -64,7 +64,19 @@
     font-size: 14px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 } */
+.oscuro{
+    background-color: #000 !important;
+    border-bottom: 1px solid;
+  }
 
+.imagenh img {
+    height: 100%; }
+  
+.imagenh{
+    @include sizes(100px, 100px);
+/*     height: 100px;
+    width: 100px;  */
+}
 
 .variacion{
     text-decoration: none;

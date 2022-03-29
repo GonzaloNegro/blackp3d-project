@@ -63,18 +63,24 @@
     grid-row: 1;
 }
 
+
+
+
+@each $red, $color in $redes{
+    .fa-#{$red}{
+        color: $color;
+    }
+}
+
 .fa-instagram{
-    color: rgb(175, 0, 219);
-    padding: 10px;
+    padding: map-get($estilos, padding);
 }
 
 
 .fa-whatsapp{
-    color: rgb(0, 255, 42);
-    padding: 10px;
+    padding: map-get($estilos, padding);
 }
 
 .fa-envelope{
-    color: rgb(255, 22, 22);
-    padding: 10px;
-}
+    padding: map-get($estilos, padding);
+} 

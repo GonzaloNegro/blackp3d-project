@@ -30,6 +30,10 @@
     flex-wrap: wrap;
 }
 
+.impresoras__contenedor--derecha{
+    @extend .impresoras__contenedor;
+}
+
 .impresoras__imagen{
     width: 300px;
     height: 300px;
