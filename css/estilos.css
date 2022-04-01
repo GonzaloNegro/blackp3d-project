@@ -215,7 +215,7 @@ iframe {
 .principal__2 {
   width: auto;
   height: 600px;
-  background-color: #0c0c0c;
+  background-color: rgba(49, 40, 40, 0.6);
   border-top: 1px solid #312828;
   border-bottom: 1px solid #312828;
   display: flex;
@@ -233,7 +233,8 @@ iframe {
   align-items: center; }
 
 .principal__2imagen img {
-  width: 700px; }
+  width: 700px;
+  border-radius: 10px; }
 
 .principal__2texto {
   width: 400px;
@@ -305,7 +306,7 @@ iframe {
   width: auto;
   height: auto;
   padding: 40px;
-  background-color: #0c0c0c;
+  background-color: rgba(49, 40, 40, 0.6);
   border-top: 1px solid #312828; }
 
 .nosotros {

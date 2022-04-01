@@ -88,7 +88,7 @@
 .principal__2{
     width: $auto;
     height: 600px;
-    background-color: #0c0c0c;
+    background-color: rgba(49, 40, 40, 0.6);
     border-top: 1px solid rgb(49, 40, 40);
     border-bottom: 1px solid rgb(49, 40, 40);
 
@@ -111,6 +111,7 @@
 
 .principal__2imagen img{
     width: 700px;
+    border-radius: 10px;
 }
 
 .principal__2texto{
@@ -202,7 +203,7 @@
     height: $auto;
     padding: 40px;
 
-    background-color: #0c0c0c;
+    background-color: rgba(49, 40, 40, 0.6);
 
     border-top: 1px solid rgb(49, 40, 40);
 }
