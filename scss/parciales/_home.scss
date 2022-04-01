@@ -11,70 +11,79 @@
     opacity: .90;
   } 
 
-.principal {
+  .principal {
     width: auto;
     height: 600px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     flex-wrap: wrap;
     margin-top: 10px;
     margin-bottom: 10px; }
   
   .principal__titulo {
     width: auto;
+    margin-top: 150px;
     padding: 30px;
-  
     letter-spacing: 5px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     color: #FFFFFF;
+    animation: separacion 6000ms ease infinite; }
   
-    animation: separacion 6000ms ease infinite;
-  }
-  
-  @keyframes separacion{
+  @keyframes separacion {
     0% {
-      letter-spacing: 5px;
-    }
-    50%{
-      letter-spacing: 15px;
-    }
-    100%{
-      letter-spacing: 5px;
-    }
-  }
+      letter-spacing: 5px; }
+    50% {
+      letter-spacing: 15px; }
+    100% {
+      letter-spacing: 5px; } }
   
-  .principal__texto{
+  .principal__texto {
     width: auto;
+    margin-bottom: 150px;
+  
+    display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
     color: white;
+    animation: mov 6000ms ease infinite; }
   
-    animation:  mov 6000ms ease infinite;
-  }
-  
-  @keyframes mov{
+  @keyframes mov {
     0% {
-    filter: none;
-    }
+      filter: none; }
     33% {
-      transform: translatey(0.2vw);
-      }
-    50%{
-      filter: blur(1px);
-    }
+      transform: translatey(0.2vw); }
+    50% {
+      filter: blur(1px); }
     66% {
-      transform: translatey(-0.2vw);
-      }
-    100%{
+      transform: translatey(-0.2vw); }
+    100% {
       filter: none;
-      transform: translatex(0);
-    }
+      transform: translatex(0); } }
+  
+  .principal__flecha{
+    width: auto;
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    animation: flec 3000ms ease infinite;
   }
+  
+  @keyframes flec {
+    0% {
+      transform: translatey(0); }
+    50% {
+      transform: translatey(-1vw); } 
+    100% {
+      transform: translatey(0); } }
+  
 
 .principal__2{
     width: $auto;

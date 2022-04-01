@@ -147,13 +147,14 @@ iframe {
   height: 600px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   flex-wrap: wrap;
   margin-top: 10px;
   margin-bottom: 10px; }
 
 .principal__titulo {
   width: auto;
+  margin-top: 150px;
   padding: 30px;
   letter-spacing: 5px;
   display: flex;
@@ -173,9 +174,11 @@ iframe {
 
 .principal__texto {
   width: auto;
+  margin-bottom: 150px;
+  display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: flex-end;
+  align-items: center;
   color: white;
   animation: mov 6000ms ease infinite; }
 
@@ -191,6 +194,23 @@ iframe {
   100% {
     filter: none;
     transform: translatex(0); } }
+
+.principal__flecha {
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  animation: flec 3000ms ease infinite; }
+
+@keyframes flec {
+  0% {
+    transform: translatey(0); }
+  50% {
+    transform: translatey(-1vw); }
+  100% {
+    transform: translatey(0); } }
 
 .principal__2 {
   width: auto;
