@@ -37,6 +37,13 @@ iframe {
 .body {
   background-color: #000; }
 
+#botonArriba {
+  position: fixed;
+  bottom: 20px;
+  right: -100px;
+  color: white;
+  transition: all 1s; }
+
 /*//////////////////CABECERA/////////////////////*/
 /* .header{
     background-color: $negro;
