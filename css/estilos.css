@@ -339,6 +339,7 @@ iframe {
   width: 500px;
   padding: 30px;
   display: flex;
+  background-color: rgba(49, 40, 40, 0.6);
   flex-direction: row;
   justify-content: center;
   align-items: center;
@@ -532,6 +533,7 @@ iframe {
   flex-wrap: wrap; }
 
 .cuadro {
+  background-color: rgba(49, 40, 40, 0.6);
   border: 1px solid white;
   border-radius: 10px;
   padding: 10px; }
@@ -665,8 +667,8 @@ label {
   .nosotros {
     background-size: 130% 400px; }
   .nosotros {
-    height: 300px;
-    background-size: 100% 300px;
+    height: 400px;
+    background-size: 100% 400px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -692,7 +694,7 @@ label {
     justify-content: center;
     align-items: center;
     color: white; }
-  .nosotros__texto h3 {
+  .nosotros__texto h4 {
     font-size: 18px;
     text-align: center; }
   /*  .nosotros__2{
