@@ -1,69 +1,5 @@
 /*//////////////////CABECERA/////////////////////*/
-/* .header{
-    background-color: $negro;
-    height: $prc;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-
-    position: relative;
-    border-bottom: 1px solid #6b6b6b;
-}
-
-.header__contenedor{
-    max-width: 1200px;
-    margin: 0 $auto;
-    height: $prc;
-    display: $f;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
-.header__icono{
-    height: $cien;
-    width: $cien;
-}
-
-.header__icono img{
-    height: $prc;
-}
-/*//////////////////CABECERA/////////////////////*/
 /*//////////////////BOTONERA/////////////////////*/
-/* .nav{
-    text-align: center;
-
-    &__lista{
-        display: $f;
-        gap: 2rem;
-        list-style: none;
-        flex-wrap: wrap;
-    }
-    &__item{
-        margin-left: 2rem;
-    }
-    &__enlace{
-        color: white;
-        text-decoration: none;
-        font-size: 14px;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    }
-}  */
-
-/* .nav__lista{
-    display: $f;
-    gap: 2rem;
-    list-style: none;
-    flex-wrap: wrap;
-}
-
-.nav__item{
-    margin-left: 2rem;
-}
-
-.nav__enlace{
-    color: white;
-    text-decoration: none;
-    font-size: 14px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-} */
 .oscuro{
     background-color: #000 !important;
     border-bottom: 1px solid;
@@ -74,8 +10,6 @@
   
 .imagenh{
     @include sizes(100px, 100px);
-/*     height: 100px;
-    width: 100px;  */
 }
 
 .variacion{
@@ -95,7 +29,3 @@
     }
 
 }
-
-/* .variacion:hover, .variacion:focus {
-    background-size: $prc 1px;
-} */
